@@ -1,6 +1,6 @@
 # Azure-AD-Identity-Protection-policies
 
-Create a sensitivity label called Business Sensitive. Auto Apply if US Bank account number is used
+Azure AD Identity Protection Policy: User-Risk to All Users High/Sign-In Risk and Allow Require MFA.
 
 <h2>Description</h2>
 Project consists of a creating a Sensitivity Label. Use Sensitivity labels that you want to make available for apps and other services. Sensitivity labels from Microsoft Purview Information Protection let you classify and protect your organization's data, while making sure that user productivity and their ability to collaborate isn't hindered. In this practical, it is auto applying for sensitive data i.e. US Bank Account number.
