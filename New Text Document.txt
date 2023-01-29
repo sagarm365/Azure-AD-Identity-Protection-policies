@@ -1,0 +1,6 @@
+Azure AD Identity Protection Policy User Risk All User High/Sign In Allow Require MFA.
+Steps:
+1.	Azure portal  Azure AD Identity Protection
+2.	User risk policy  select users, set High User risk, set Block access
+3.	Sign-In risk policy   select users, set High User risk, set Allow access (Require MFA)
+4.	Done
