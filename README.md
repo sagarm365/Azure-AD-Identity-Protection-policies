@@ -14,7 +14,7 @@ Project consists of a creating a Risk-based access policies as a part of Azure A
 
 <h2>Prerequisites</h2>
 
--<b> Sensitivity labels can be created or modified by anyone assigned the following roles:
+-<b> Identity Protection policy can be created or modified by anyone assigned the following roles:
  - Conditional Access Administrator
  - Security Administrator
  - Global Administrator
