@@ -3,24 +3,23 @@
 Azure AD Identity Protection Policy: User-Risk to All Users High/Sign-In Risk and Allow Require MFA.
 
 <h2>Description</h2>
-Project consists of a creating a Sensitivity Label. Use Sensitivity labels that you want to make available for apps and other services. Sensitivity labels from Microsoft Purview Information Protection let you classify and protect your organization's data, while making sure that user productivity and their ability to collaborate isn't hindered. In this practical, it is auto applying for sensitive data i.e. US Bank Account number.
+Project consists of a creating a Risk-based access policies as a part of Azure AD Identity Protection policies. Risk-based access policies, there are two types of risk policies in Azure Active Directory (Azure AD) Conditional Access we can set up to automate the response to risks and allow users to self-remediate when risk is detected: Sign-in risk policy and User-risk policy. In this practical, it is auto applying for High risk level.
 <br />
 
 
 <h2>Environments Used </h2>
 
-- <b>Microsoft Purview Compliance Portal</b> 
+- <b>Microsoft Azure Portal</b> 
+- <b>Azure AD Identity Protection service</b>
 
 <h2>Prerequisites</h2>
 
 -<b> Sensitivity labels can be created or modified by anyone assigned the following roles:
- - Sensitivity Label Administrator
- - Compliance Data Administrator
- - Compliance Administrator
+ - Conditional Access Administrator
  - Security Administrator
  - Global Administrator
  </b>
-- <b> Licenses: Microsoft 365 Enterprise E3 or E5 SKUs, or Microsoft 365 Business Premium SKU</b>
+- <b> Licenses: Azure AD Premium P2, Enterprise Mobility and Security E5 plan</b>
 
 
 <h2>Program walk-through:</h2>
