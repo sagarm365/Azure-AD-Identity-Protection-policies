@@ -1,6 +1,5 @@
 # Azure-AD-Identity-Protection-policies
 
-# Sensitivity-Labels
 Create a sensitivity label called Business Sensitive. Auto Apply if US Bank account number is used
 
 <h2>Description</h2>
@@ -28,50 +27,33 @@ Project consists of a creating a Sensitivity Label. Use Sensitivity labels that 
 
 <h3>Steps: </h3>
 
-1.	Compliance portal (Purview) --> Information Protection --> ‘ +Create a label’
-2.	Give a Name , Description --> Next
-3.	Select ‘Files & emails’ --> choose ‘mark the content of files’
-4.	Content marketing (turn on) --> Tick ‘Add a watermark’ --> customize it
-5.	Auto labelling for files & emails --> Select ‘Content details’ as ‘Sensitive info types’
-6.	Select ‘US bank account number’ as sensitive info types
-7.	Add --> Next
-8.	Review settings & Finish
-9.	Create label --> Done
+1. Azure portal --> Azure AD Identity Protection
+2.	User risk policy --> select users, set High User risk, set Block access
+3.	Sign-In risk policy --> select users, set High User risk, set Allow access (Require MFA)
+4.	Done
 
 
-<h2>Program walk-through:</h2>
+
+<h3>Screenshots:</h3>
 
 <p align="center">
-Compliacne portal menu: <br/>
-<img src="Info protection menu.png" height="50%" width="50%" />
-<br />
-<br />
-New Create Sensitivity Label: <br/>
-<img src="creating sensitivity label.png" height="50%" width="50%"/>
-<br />
-<br />
-Scope of Label: <br/>
-<img src="scope of label.png" height="65%" width="50%"/>
-<br />
-<br />
-Protection Settings: <br/>
-<img src="protection settings.png" height="65%" width="50%"/>
-<br />
-<br />
-Content Marking: <br/>
-<img src="content marking.png" height="65%" width="50%"/>
-<br />
-<br />
-Select US Bank A/c No as Sensitivity Info type: <br/>
-<img src="Sensitive info types.png" height="65%" width="50%"/>
-<br />
-<br />
-Review and Finish: <br/>
-<img src="Review.png" height="65%" width="50%"/>
+User-Risk: <br/>
+<img src="user risk.png" height="50%" width="50%" />
 <br />
 <br />
 Result: <br/>
-<img src="Result.png" height="65%" width="50%"/>
+<img src="1.png" height="50%" width="50%"/>
+<br />
+<br />
+Sign-in Risk: <br/>
+<img src="sign in risk.png" height="65%" width="50%"/>
+<br />
+<br />
+Result: <br/>
+<img src="2.png" height="65%" width="50%"/>
+<br />
+<br />
+
 
 
 </p>
